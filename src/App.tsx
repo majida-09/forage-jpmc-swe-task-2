@@ -6,8 +6,10 @@ import './App.css';
 /**
  * State declaration for <App />
  */
-interface IState {
-  data: ServerRespond[],
+        interface IState {
+          data: ServerRespond[],
+          showGraph:boolean, #added showGraph property for the change of graph#
+
 }
 
 /**
